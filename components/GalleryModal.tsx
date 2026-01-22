@@ -65,11 +65,11 @@ export const GalleryModal: React.FC<GalleryModalProps> = ({ projectId, onClose }
               </div>
 
               <a
-                href={`https://wa.me/?text=I'm interested in ${project.title}`}
+                href={`https://wa.me/919110253480?text=I'm interested in ${project.title}`}
                 target="_blank"
                 className="block w-full text-center bg-brand-dark text-brand-cream py-6 rounded-full font-bold tracking-[0.4em] text-[10px] uppercase hover:bg-brand-accent transition-all shadow-2xl shadow-brand-dark/10"
               >
-                Inquire via WhatsApp
+                Inquire via WhatsApp (+91 9110253480)
               </a>
             </div>
 
@@ -79,7 +79,7 @@ export const GalleryModal: React.FC<GalleryModalProps> = ({ projectId, onClose }
                   <div
                     key={idx}
                     className={`
-                      relative overflow-hidden rounded-[3rem] shadow-2xl border-[12px] border-white transition-all duration-700 hover:scale-[1.02]
+                      relative overflow-hidden rounded-[3rem] shadow-2xl border-[12px] border-white transition-all duration-700 hover:scale-[1.02] active:scale-95
                       ${img.orientation === 'landscape' ? 'md:col-span-2' : ''}
                       ${img.orientation === 'portrait' ? 'md:col-span-1 aspect-[3/4]' : ''}
                       ${img.orientation === 'square' ? 'md:col-span-1 aspect-square' : ''}
@@ -88,7 +88,7 @@ export const GalleryModal: React.FC<GalleryModalProps> = ({ projectId, onClose }
                     <img
                       src={img.src}
                       alt={`${project.title} detailed view ${idx + 1}`}
-                      className="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-1000"
+                      className="w-full h-full object-cover md:grayscale-[20%] md:hover:grayscale-0 transition-all duration-1000"
                     />
                   </div>
                 ))}

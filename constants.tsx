@@ -16,11 +16,9 @@ export const HAMPER_PROJECTS: HamperProject[] = [
     title: 'chocolate hamper',
     occasion: Occasion.BIRTHDAY,
     price: 1500,
-    description: 'Elegant white roses wrapped in premium satin silk paper with a custom greeting.',
+    description: 'a beautiful choclate hamper (can be customized based on your favorite chocolates).',
     images: [
-      { src: image1, orientation: 'portrait' },
-      { src: image2, orientation: 'landscape' },
-      { src: image3, orientation: 'square' }
+      { src: image1, orientation: 'portrait' }
     ]
   },
   {
@@ -30,8 +28,7 @@ export const HAMPER_PROJECTS: HamperProject[] = [
     price: 1250,
     description: 'A delicate collection of mini bouquets featuring diverse floral textures.',
     images: [
-      { src: image2, orientation: 'portrait' },
-      { src: 'https://images.unsplash.com/photo-1589123017147-3807b660233b?q=80&w=800&auto=format&fit=crop', orientation: 'landscape' }
+      { src: image2, orientation: 'portrait' }
     ]
   },
   {
@@ -39,10 +36,9 @@ export const HAMPER_PROJECTS: HamperProject[] = [
     title: 'doll bouquet',
     occasion: Occasion.FOR_HIM,
     price: 750,
-    description: 'Artisanal coffee beans paired with a bespoke mug and leather-bound coasters.',
+    description: 'a mesmerizing doll bouquet.',
     images: [
-      { src: image3, orientation: 'square' },
-      { src: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=800&auto=format&fit=crop', orientation: 'landscape' }
+      { src: image3, orientation: 'square' }
     ]
   },
   {
@@ -50,7 +46,7 @@ export const HAMPER_PROJECTS: HamperProject[] = [
     title: 'Nikha booklet',
     occasion: Occasion.WEDDING,
     price: 1350,
-    description: 'A single, high-grade pink rose in an architectural paper wrap.',
+    description: 'A beautiful booklet with a gloden or silver aesthetics for your nikah.',
     images: [
       { src: wedImage2, orientation: 'portrait' },
       { src: wedImage1, orientation: 'portrait' }
@@ -63,16 +59,15 @@ export const HAMPER_PROJECTS: HamperProject[] = [
     price: 2999,
     description: 'Luxury velvet box containing assorted truffles and a personalized journal.',
     images: [
-      { src: image5, orientation: 'landscape' },
-      { src: 'https://images.unsplash.com/photo-1511385348-a52b4a160dc2?q=80&w=800&auto=format&fit=crop', orientation: 'square' }
+      { src: image5, orientation: 'landscape' }
     ]
   },
   {
     id: '6',
-    title: 'Gourmet Snack Exchange',
+    title: 'A trolley hamper',
     occasion: Occasion.EXCHANGE,
-    price: 1800,
-    description: 'Hand-picked selection of organic dry fruits and artisanal crisps.',
+    price: 2999,
+    description: 'Hand-picked selection of organic dry fruits and artisanal crisps, chocolates and a beautiful aesthetic looking flower bouquet.',
     images: [
       { src: image6, orientation: 'landscape' }
     ]

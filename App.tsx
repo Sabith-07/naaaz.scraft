@@ -39,20 +39,20 @@ const App: React.FC = () => {
           <div className="absolute top-0 right-0 w-96 h-96 bg-brand-accent/10 blur-[100px] rounded-full -translate-y-1/2 translate-x-1/2"></div>
           <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-12 text-center relative z-10">
             <div className="reveal">
-              <p className="font-serif text-4xl md:text-5xl mb-2 italic text-brand-accent">1,200+</p>
+              <p className="font-serif text-4xl md:text-5xl mb-2 italic text-brand-accent">100+</p>
               <p className="text-[9px] uppercase tracking-[0.4em] text-brand-cream/30 font-bold">Moments Created</p>
             </div>
             <div className="reveal">
-              <p className="font-serif text-4xl md:text-5xl mb-2 italic text-brand-accent">100%</p>
+              <p className="font-serif text-4xl md:text-5xl mb-2 italic text-brand-accent">99%</p>
               <p className="text-[9px] uppercase tracking-[0.4em] text-brand-cream/30 font-bold">Artisanal Sourcing</p>
             </div>
             <div className="reveal">
-              <p className="font-serif text-4xl md:text-5xl mb-2 italic text-brand-accent">48h</p>
+              <p className="font-serif text-4xl md:text-5xl mb-2 italic text-brand-accent">24h</p>
               <p className="text-[9px] uppercase tracking-[0.4em] text-brand-cream/30 font-bold">Concierge Support</p>
             </div>
             <div className="reveal">
               <p className="font-serif text-4xl md:text-5xl mb-2 italic text-brand-accent">Elite</p>
-              <p className="text-[9px] uppercase tracking-[0.4em] text-brand-cream/30 font-bold">Global Shipping</p>
+              <p className="text-[9px] uppercase tracking-[0.4em] text-brand-cream/30 font-bold">Mangalore Shipping</p>
             </div>
           </div>
         </section>
