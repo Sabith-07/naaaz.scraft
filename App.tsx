@@ -24,7 +24,7 @@ const App: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-brand-cream selection:bg-brand-accent selection:text-white">
+    <div className="min-h-screen bg-brand-cream selection:bg-brand-accent selection:text-white overflow-x-hidden w-full relative">
       <Navbar onSelectProject={setSelectedProjectId} />
 
       <main>
@@ -74,13 +74,13 @@ const App: React.FC = () => {
         </svg>
       </button>
 
-      <footer className="bg-brand-cream py-20 px-6 border-t border-brand-dark/5">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-[10px] uppercase tracking-[0.5em] font-bold text-brand-dark/30">
+      <footer className="bg-brand-cream py-20 px-6 border-t border-brand-dark/5 pb-32 md:pb-20">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-[10px] uppercase tracking-[0.2em] md:tracking-[0.5em] font-bold text-brand-dark/30">
           <div className="flex flex-col items-center md:items-start space-y-4 mb-10 md:mb-0">
             <h4 className="font-serif text-2xl lowercase italic text-brand-dark tracking-tighter">naaazi.scraft</h4>
             <p>&copy; 2025 Collective Studio</p>
           </div>
-          <div className="flex space-x-12">
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-4 md:gap-x-12 max-w-xs md:max-w-none">
             <a href="https://instagram.com/naaazi.scraft" target="_blank" className="hover:text-brand-accent transition-colors">Instagram</a>
             <a href="#" className="hover:text-brand-accent transition-colors">Pinterest</a>
             <a href="#" className="hover:text-brand-accent transition-colors">Privacy</a>
